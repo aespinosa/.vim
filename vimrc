@@ -1,3 +1,7 @@
+" Pathogen plugin
+call pathogen#runtime_append_allbundles()
+call pathogen#helptags()
+
 " Editor formatting options
 set sts:2
 set ts:2
