@@ -1,0 +1,21 @@
+[submodule "bundle/bufexplorer.zip"]
+	path = bundle/bufexplorer.zip
+	url = git://github.com/vim-scripts/bufexplorer.zip.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/snipmate.vim"]
+	path = bundle/snipmate.vim
+	url = git://github.com/msanders/snipmate.vim.git
+[submodule "bundle/snipmate-snippets"]
+	path = bundle/snipmate-snippets
+	url = git://github.com/scrooloose/snipmate-snippets.git
+[submodule "bundle/Align"]
+	path = bundle/Align
+	url = git://github.com/vim-scripts/Align.git
+[submodule "bundle/Swift-vim"]
+	path = bundle/Swift-vim
+	url = git://github.com/aespinosa/Swift-vim.git
