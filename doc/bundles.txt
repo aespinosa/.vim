@@ -1,0 +1,14 @@
+*bundles.txt*                    Bundles                      Version 0.1
+
+These are the bundles installed on your system, along with their
+versions and release dates.  Downloaded on 2010-12-04 15:53:46 -0600.
+
+A version number of 'n/a' means upstream hasn't tagged any releases.
+  - |bufexplorer.zip|              7.2.8                  2010-11-04
+  - |nerdcommenter|                2.2.2-15-g930be32      2010-09-03
+  - |surround|                     v1.90-1-g27710a2       2010-09-09
+  - |snipmate.vim|                 n/a                    2010-04-08
+  - |snipmate-snippets|            n/a                    2010-08-20
+  - |Align|                        35-41                  2009-03-04
+  - |Swift-vim|                    n/a                    2010-11-08
+

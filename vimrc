@@ -1,6 +1,14 @@
 " Pathogen plugin
-call pathogen#runtime_append_allbundles()
+call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+
+" Bundle: git://github.com/vim-scripts/bufexplorer.zip.git
+" Bundle: git://github.com/scrooloose/nerdcommenter.git
+" Bundle: git://github.com/tpope/vim-surround.git
+" Bundle: git://github.com/msanders/snipmate.vim.git
+" Bundle: git://github.com/scrooloose/snipmate-snippets.git
+" Bundle: git://github.com/vim-scripts/Align.git
+" Bundle: git://github.com/aespinosa/Swift-vim.git
 
 " Editor formatting options
 set sts:2
@@ -19,7 +27,7 @@ if has("gui_running")
   set guioptions-=m
   set guioptions-=r
   set guioptions-=L
-  set guifont=Consolas\ 8
+  set guifont=Consolas\ 10
   colorscheme desert
 else
   set t_Co=256
