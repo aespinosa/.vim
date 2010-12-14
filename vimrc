@@ -27,7 +27,7 @@ if has("gui_running")
   set guioptions-=m
   set guioptions-=r
   set guioptions-=L
-  set guifont=Consolas\ 10
+  set guifont=Consolas\ 11
   colorscheme desert
 else
   set t_Co=256
