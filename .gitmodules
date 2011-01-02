@@ -19,3 +19,18 @@
 [submodule "bundle/Swift-vim"]
 	path = bundle/Swift-vim
 	url = git://github.com/aespinosa/Swift-vim.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "bundle/matchit.zip"]
+	path = bundle/matchit.zip
+	url = https://github.com/vim-scripts/matchit.zip.git
+[submodule "bundle/taglist.vim"]
+	path = bundle/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/git-vim"]
+	path = bundle/git-vim
+	url = https://github.com/motemen/git-vim.git
+[submodule "bundle/screen"]
+	path = bundle/screen
+	url = https://github.com/ervandew/screen.git

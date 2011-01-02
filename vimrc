@@ -9,6 +9,10 @@ call pathogen#helptags()
 " Bundle: git://github.com/scrooloose/snipmate-snippets.git
 " Bundle: git://github.com/vim-scripts/Align.git
 " Bundle: git://github.com/aespinosa/Swift-vim.git
+" Bundle: https://github.com/vim-scripts/matchit.zip.git
+" Bundle: https://github.com/vim-scripts/taglist.vim.git
+" Bundle: https://github.com/motemen/git-vim.git
+" Bundle: https://github.com/ervandew/screen.git
 
 " Editor formatting options
 set sts:2
@@ -27,7 +31,7 @@ if has("gui_running")
   set guioptions-=m
   set guioptions-=r
   set guioptions-=L
-  set guifont=Consolas\ 10
+  set guifont=Consolas\ 11
   colorscheme desert
 else
   set t_Co=256
