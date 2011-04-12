@@ -13,6 +13,7 @@ call pathogen#helptags()
 " Bundle: https://github.com/vim-scripts/taglist.vim.git
 " Bundle: https://github.com/motemen/git-vim.git
 " Bundle: https://github.com/ervandew/screen.git
+" Bundle: git://github.com/altercation/vim-colors-solarized.git
 
 " Editor formatting options
 set sts:2
@@ -28,16 +29,18 @@ filetype indent on
 
 " Visual options
 if has("gui_running")
+  set background=dark
   set guioptions-=m
   set guioptions-=r
   set guioptions-=L
   set guifont=Consolas\ 11
-  colorscheme desert
 else
-  set t_Co=256
-  colorscheme desert256
+  set background=dark
+  set t_Co=16
+  let g:solarized_termcolors=16
   set mouse=a
 endif
+colorscheme solarized
 set number
 set winminheight=0
 
@@ -48,3 +51,5 @@ set list
 syntax enable
 set foldmethod=syntax
 set foldlevel=1
+set iskeyword=@,48-57,_,-,:,192-255
+set modeline
