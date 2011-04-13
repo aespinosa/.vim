@@ -14,6 +14,8 @@ call pathogen#helptags()
 " Bundle: https://github.com/motemen/git-vim.git
 " Bundle: https://github.com/ervandew/screen.git
 " Bundle: git://github.com/altercation/vim-colors-solarized.git
+" Bundle: git://github.com/vim-scripts/TWiki-Syntax.git
+" Bundle: git://github.com/vim-scripts/Conque-Shell.git
 
 " Editor formatting options
 set sts:2

@@ -37,3 +37,9 @@
 [submodule "bundle/colors-solarized"]
 	path = bundle/colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/TWiki-Syntax"]
+	path = bundle/TWiki-Syntax
+	url = git://github.com/vim-scripts/TWiki-Syntax.git
+[submodule "bundle/Conque-Shell"]
+	path = bundle/Conque-Shell
+	url = git://github.com/vim-scripts/Conque-Shell.git
