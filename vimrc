@@ -3,6 +3,20 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 
+" Bundle: aespinosa/Swift-vim
+" Bundle: altercation/vim-colors-solarized
+" Bundle: ervandew/screen
+" Bundle: msanders/snipmate.vim
+" Bundle: scrooloose/nerdcommenter
+" Bundle: tpope/vim-fugitive
+" Bundle: tpope/vim-git
+" Bundle: tpope/vim-surround
+" Bundle: Align
+" Bundle: bufexplorer.zip
+" Bundle: Conque-Shell
+" Bundle: matchit.zip
+" Bundle: taglist.vim
+" Bundle: TWiki-Syntax
 
 " Editor formatting options
 set sts:2
