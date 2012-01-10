@@ -3,6 +3,7 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 
+" Bundle: acx0/Conque-Shell
 " Bundle: aespinosa/Swift-vim
 " Bundle: altercation/vim-colors-solarized
 " Bundle: ervandew/screen
@@ -13,7 +14,6 @@ call pathogen#helptags()
 " Bundle: tpope/vim-surround
 " Bundle: Align
 " Bundle: bufexplorer.zip
-" Bundle: Conque-Shell
 " Bundle: matchit.zip
 " Bundle: taglist.vim
 " Bundle: TWiki-Syntax

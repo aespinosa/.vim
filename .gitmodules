@@ -31,9 +31,6 @@
 [submodule "bundle/bufexplorer.zip"]
 	path = bundle/bufexplorer.zip
 	url = https://github.com/vim-scripts/bufexplorer.zip.git
-[submodule "bundle/Conque-Shell"]
-	path = bundle/Conque-Shell
-	url = https://github.com/vim-scripts/Conque-Shell.git
 [submodule "bundle/matchit.zip"]
 	path = bundle/matchit.zip
 	url = https://github.com/vim-scripts/matchit.zip.git
@@ -43,3 +40,6 @@
 [submodule "bundle/TWiki-Syntax"]
 	path = bundle/TWiki-Syntax
 	url = https://github.com/vim-scripts/TWiki-Syntax.git
+[submodule "bundle/Conque-Shell"]
+	path = bundle/Conque-Shell
+	url = https://github.com/acx0/Conque-Shell.git
