@@ -39,7 +39,12 @@ if has("gui_running")
   set guioptions-=m
   set guioptions-=r
   set guioptions-=L
-  set guifont=Consolas\ 9
+  if has("win32")
+    set encoding=utf-8
+    set guifont=Consolas:h9
+  else
+    set guifont=Consolas\ 9
+  endif
 else
   "let g:solarized_degrade=1
   "let g:solarized_termcolors=256
