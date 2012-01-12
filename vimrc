@@ -7,11 +7,16 @@ call pathogen#helptags()
 " Bundle: aespinosa/Swift-vim
 " Bundle: altercation/vim-colors-solarized
 " Bundle: ervandew/screen
+" Bundle: mileszs/ack.vim
 " Bundle: msanders/snipmate.vim
 " Bundle: scrooloose/nerdcommenter
+" Bundle: scrooloose/syntastic
+" Bundle: tpope/vim-bundler
 " Bundle: tpope/vim-fugitive
 " Bundle: tpope/vim-git
+" Bundle: tpope/vim-rake
 " Bundle: tpope/vim-surround
+" Bundle: vim-ruby/vim-ruby
 " Bundle: Align
 " Bundle: bufexplorer.zip
 " Bundle: matchit.zip
