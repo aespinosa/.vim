@@ -61,6 +61,7 @@ else
 endif
 set number
 set winminheight=0
+set laststatus=2
 
 set nowrap
 set listchars=tab:▸\ ,eol:¬
@@ -71,5 +72,28 @@ set foldlevel=1
 set iskeyword=@,48-57,_,-,:,192-255
 set modeline
 
-autocmd Filetype mail set bg:light
-autocmd Filetype tex set bg:light
+augroup mail
+  autocmd BufReadPre,Filetype mail set bg:light nonumber
+  autocmd BufReadPost,Filetype mail set bg:dark number
+augroup END
+augroup tex
+  au!
+  autocmd BufEnter *.tex set bg:light
+  autocmd BufLeave *.tex set bg:dark
+augroup END
+
+if has("win32")
+  set fileformat=unix
+endif
+
+set statusline=[%n]\ %<%.99f\ %h%w%m%r%{SL('CapsLockStatusline')}%y%{SL('fugitive#statusline')}%#ErrorMsg#%{SL('SyntasticStatuslineFlag')}%*%=%-14.(%l,%c%V%)\ %P
+
+if has("eval")
+function! SL(function)
+  if exists('*'.a:function)
+    return call(a:function,[])
+  else
+    return ''
+  endif
+endfunction
+endif
