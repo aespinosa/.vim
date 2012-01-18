@@ -7,6 +7,7 @@ call pathogen#helptags()
 " Bundle: aespinosa/Swift-vim
 " Bundle: altercation/vim-colors-solarized
 " Bundle: ervandew/screen
+" Bundle: majutsushi/tagbar 
 " Bundle: mileszs/ack.vim
 " Bundle: msanders/snipmate.vim
 " Bundle: scrooloose/nerdcommenter
@@ -20,7 +21,6 @@ call pathogen#helptags()
 " Bundle: Align
 " Bundle: bufexplorer.zip
 " Bundle: matchit.zip
-" Bundle: taglist.vim
 " Bundle: TWiki-Syntax
 
 " Editor formatting options
