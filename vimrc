@@ -19,6 +19,7 @@ call pathogen#infect()
 " Bundle: tpope/vim-git
 " Bundle: tpope/vim-rake
 " Bundle: tpope/vim-surround
+" Bundle: wincent/Command-T 
 " Bundle: vim-ruby/vim-ruby
 " Bundle: Align
 " Bundle: bufexplorer.zip
