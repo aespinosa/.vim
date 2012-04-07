@@ -7,6 +7,7 @@ call pathogen#infect()
 " Bundle: aespinosa/Swift-vim
 " Bundle: altercation/vim-colors-solarized
 " Bundle: ervandew/screen
+" Bundle: jcfaria/Vim-R-plugin
 " Bundle: majutsushi/tagbar 
 " Bundle: mileszs/ack.vim
 " Bundle: msanders/snipmate.vim
