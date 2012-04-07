@@ -1,7 +1,7 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 " Bundle: tpope/vim-pathogen
 call pathogen#infect()
-call pathogen#helptags()
+"call pathogen#helptags()
 
 " Bundle: acx0/Conque-Shell
 " Bundle: aespinosa/Swift-vim
@@ -54,7 +54,7 @@ else
   "let g:solarized_degrade=1
   "let g:solarized_termcolors=256
   "let g:solarized_termtrans=1
-  "set t_Co=16
+  set t_Co=16
   set background=dark
   colorscheme solarized
   set mouse=a
