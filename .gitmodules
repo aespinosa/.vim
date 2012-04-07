@@ -61,3 +61,15 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = https://github.com/wincent/Command-T.git
+[submodule "bundle/tslime.vim"]
+	path = bundle/tslime.vim
+	url = https://github.com/brandonbloom/tslime.vim.git
+[submodule "bundle/vim-ruby-minitest"]
+	path = bundle/vim-ruby-minitest
+	url = https://github.com/sunaku/vim-ruby-minitest.git
+[submodule "bundle/Vim-R-plugin"]
+	path = bundle/Vim-R-plugin
+	url = https://github.com/jcfaria/Vim-R-plugin.git
