@@ -12,6 +12,7 @@ call pathogen#infect()
 " Bundle: msanders/snipmate.vim
 " Bundle: scrooloose/nerdcommenter
 " Bundle: scrooloose/syntastic
+" Bundle: sunaku/vim-ruby-minitest
 " Bundle: tpope/vim-bundler
 " Bundle: tpope/vim-fugitive
 " Bundle: tpope/vim-git
