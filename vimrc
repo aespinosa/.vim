@@ -17,6 +17,7 @@ call pathogen#infect()
 " Bundle: tpope/vim-bundler
 " Bundle: tpope/vim-fugitive
 " Bundle: tpope/vim-git
+" Bundle: tpope/vim-markdown
 " Bundle: tpope/vim-rake
 " Bundle: tpope/vim-surround
 " Bundle: wincent/Command-T 
@@ -83,6 +84,10 @@ augroup tex
   au!
   autocmd BufEnter *.tex set bg:light
   autocmd BufLeave *.tex set bg:dark
+augroup END
+augroup markdown
+  autocmd BufEnter *.md set bg:light
+  autocmd BufLeave *.md set bg:dark
 augroup END
 
 if has("win32")

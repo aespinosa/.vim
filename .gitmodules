@@ -73,3 +73,6 @@
 [submodule "bundle/Vim-R-plugin"]
 	path = bundle/Vim-R-plugin
 	url = https://github.com/jcfaria/Vim-R-plugin.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
