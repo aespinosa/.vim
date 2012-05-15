@@ -56,6 +56,7 @@ set list
 " Bundle: vim-ruby/vim-ruby
 " Markup
 " Bundle: TWiki-Syntax
+" Bundle: tpope/vim-cucumber
 " Bundle: tpope/vim-markdown
 
 " Editor formatting options
