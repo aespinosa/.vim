@@ -75,7 +75,6 @@ syntax enable
 
 set foldmethod=syntax
 set foldlevel=1
-set iskeyword=@,48-57,_,-,:,192-255
 set modeline
 
 augroup markup
@@ -85,6 +84,7 @@ augroup markup
   autocmd BufEnter *.tex set bg=light
   autocmd BufLeave *.tex set bg=dark
   autocmd FileType tex setlocal spell spelllang=en_us
+  autocmd FileType tex set iskeyword=@,48-57,_,-,:,192-255
   autocmd BufEnter *.md set bg=light
   autocmd BufLeave *.md set bg=dark
   autocmd FileType markdown setlocal spell spelllang=en_us
