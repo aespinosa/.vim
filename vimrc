@@ -43,7 +43,7 @@ set list
 " Bundle: scrooloose/syntastic
 " Bundle: scrooloose/nerdcommenter
 " Bundle: tpope/vim-surround
-" Bundle: wincent/Command-T 
+" Bundle: kien/ctrlp.vim
 
 " Snipmate and dependencies
 " Bundle: tomtom/tlib_vim
