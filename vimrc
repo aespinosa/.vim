@@ -40,11 +40,16 @@ set list
 " Bundle: ervandew/screen
 " Bundle: majutsushi/tagbar 
 " Bundle: mileszs/ack.vim
-" Bundle: msanders/snipmate.vim
 " Bundle: scrooloose/syntastic
 " Bundle: scrooloose/nerdcommenter
 " Bundle: tpope/vim-surround
 " Bundle: wincent/Command-T 
+
+" Snipmate and dependencies
+" Bundle: tomtom/tlib_vim
+" Bundle: MarcWeber/vim-addon-mw-utils
+" Bundle: garbas/vim-snipmate
+" Bundle: honza/snipmate-snippets
 
 " Language-specific plugins
 " Bundle: aespinosa/Swift-vim
