@@ -77,21 +77,16 @@ set foldlevel=1
 set iskeyword=@,48-57,_,-,:,192-255
 set modeline
 
-augroup mail
-  autocmd BufReadPre,Filetype mail set bg:light nonumber
-  autocmd BufReadPost,Filetype mail set bg:dark number
-  setlocal spell spelllang=en_us
-augroup END
-augroup tex
-  au!
-  autocmd BufEnter *.tex set bg:light
-  autocmd BufLeave *.tex set bg:dark
-  setlocal spell spelllang=en_us
-augroup END
-augroup markdown
-  autocmd BufEnter *.md set bg:light
-  autocmd BufLeave *.md set bg:dark
-  setlocal spell spelllang=en_us
+augroup markup
+  au BufEnter snd.\d\+,.letter,.letter.\d\+,.followup,.article,.article.\d\+,pico.\d\+,mutt{ng,}-*-\w\+,mutt[[:alnum:]_-]\{6\},ae\d\+.txt,/tmp/SLRN[0-9A-Z.]\+,*.eml set bg=light
+  au BufLeave snd.\d\+,.letter,.letter.\d\+,.followup,.article,.article.\d\+,pico.\d\+,mutt{ng,}-*-\w\+,mutt[[:alnum:]_-]\{6\},ae\d\+.txt,/tmp/SLRN[0-9A-Z.]\+,*.eml set bg=dark
+  autocmd Filetype mail setlocal spell spelllang=en_us
+  autocmd BufEnter *.tex set bg=light
+  autocmd BufLeave *.tex set bg=dark
+  autocmd FileType tex setlocal spell spelllang=en_us
+  autocmd BufEnter *.md set bg=light
+  autocmd BufLeave *.md set bg=dark
+  autocmd FileType markdown setlocal spell spelllang=en_us
 augroup END
 
 if has("win32")
