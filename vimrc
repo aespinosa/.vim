@@ -3,29 +3,60 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 "call pathogen#helptags()
 
-" Bundle: acx0/Conque-Shell
-" Bundle: aespinosa/Swift-vim
+" Git ingration
+" Bundle: tpope/vim-fugitive
+" Bundle: tpope/vim-git
+
+" Visual settings
 " Bundle: altercation/vim-colors-solarized
+if has("gui_running")
+  colorscheme solarized
+  set background=dark
+  set guioptions-=m
+  set guioptions-=r
+  set guioptions-=L
+  if has("win32")
+    set encoding=utf-8
+    set guifont=Consolas:h9
+  else
+    set guifont=Consolas\ 9
+  endif
+else
+  colorscheme solarized
+  set mouse=a
+endif
+set number
+set winminheight=0
+set laststatus=2
+set nowrap
+set listchars=tab:▸\ ,eol:¬
+set list
+
+" Bunch of tools
+" Bundle: Align
+" Bundle: matchit.zip
+" Bundle: bufexplorer.zip
+" Bundle: acx0/Conque-Shell
 " Bundle: ervandew/screen
-" Bundle: jcfaria/Vim-R-plugin
 " Bundle: majutsushi/tagbar 
 " Bundle: mileszs/ack.vim
 " Bundle: msanders/snipmate.vim
-" Bundle: scrooloose/nerdcommenter
 " Bundle: scrooloose/syntastic
-" Bundle: sunaku/vim-ruby-minitest
-" Bundle: tpope/vim-bundler
-" Bundle: tpope/vim-fugitive
-" Bundle: tpope/vim-git
-" Bundle: tpope/vim-markdown
-" Bundle: tpope/vim-rake
+" Bundle: scrooloose/nerdcommenter
 " Bundle: tpope/vim-surround
 " Bundle: wincent/Command-T 
+
+" Language-specific plugins
+" Bundle: aespinosa/Swift-vim
+" Bundle: jcfaria/Vim-R-plugin
+" Ruby
+" Bundle: sunaku/vim-ruby-minitest
+" Bundle: tpope/vim-bundler
+" Bundle: tpope/vim-rake
 " Bundle: vim-ruby/vim-ruby
-" Bundle: Align
-" Bundle: bufexplorer.zip
-" Bundle: matchit.zip
+" Markup
 " Bundle: TWiki-Syntax
+" Bundle: tpope/vim-markdown
 
 " Editor formatting options
 set sts:2
@@ -40,36 +71,6 @@ filetype on
 filetype indent on
 
 syntax enable
-
-" Visual options
-if has("gui_running")
-  colorscheme solarized
-  set background=dark
-  set guioptions-=m
-  set guioptions-=r
-  set guioptions-=L
-  if has("win32")
-    set encoding=utf-8
-    set guifont=Consolas:h9
-  else
-    set guifont=Consolas\ 9
-  endif
-else
-  "let g:solarized_degrade=1
-  "let g:solarized_termcolors=256
-  "let g:solarized_termtrans=1
-  set t_Co=16
-  set background=dark
-  colorscheme solarized
-  set mouse=a
-endif
-set number
-set winminheight=0
-set laststatus=2
-
-set nowrap
-set listchars=tab:▸\ ,eol:¬
-set list
 
 set foldmethod=syntax
 set foldlevel=1
