@@ -55,6 +55,7 @@ set list
 " Bundle: aespinosa/Swift-vim
 " Bundle: kchmck/vim-coffee-script
 " Bundle: jcfaria/Vim-R-plugin
+" Bundle: rogerz/vim-json
 " Ruby
 " Bundle: sunaku/vim-ruby-minitest
 " Bundle: tpope/vim-bundler
