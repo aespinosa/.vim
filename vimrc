@@ -53,11 +53,13 @@ set list
 
 " Language-specific plugins
 " Bundle: aespinosa/Swift-vim
+" Bundle: kchmck/vim-coffee-script
 " Bundle: jcfaria/Vim-R-plugin
 " Ruby
 " Bundle: sunaku/vim-ruby-minitest
 " Bundle: tpope/vim-bundler
 " Bundle: tpope/vim-rake
+" Bundle: tpope/vim-rails
 " Bundle: vim-ruby/vim-ruby
 " Markup
 " Bundle: TWiki-Syntax
