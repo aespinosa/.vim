@@ -98,6 +98,11 @@ augroup markup
   autocmd FileType markdown setlocal spell spelllang=en_us
 augroup END
 
+augroup programs
+  autocmd FileType python setlocal ts:4 sts:4 sw:4
+  autocmd FileType gitcommit setlocal ts:8 tw:72
+augroup END
+
 if has("win32")
   set fileformat=unix
 endif
