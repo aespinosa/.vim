@@ -62,6 +62,7 @@ set list
 " Bundle: tpope/vim-rake
 " Bundle: tpope/vim-rails
 " Bundle: vim-ruby/vim-ruby
+" Bundle: t9md/vim-chef
 " Markup
 " Bundle: TWiki-Syntax
 " Bundle: tpope/vim-cucumber
