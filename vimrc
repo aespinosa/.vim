@@ -85,6 +85,7 @@ syntax enable
 set foldmethod=syntax
 set foldlevel=1
 set modeline
+set exrc
 
 augroup markup
   au BufEnter snd.\d\+,.letter,.letter.\d\+,.followup,.article,.article.\d\+,pico.\d\+,mutt{ng,}-*-\w\+,mutt[[:alnum:]_-]\{6\},ae\d\+.txt,/tmp/SLRN[0-9A-Z.]\+,*.eml set bg=light
