@@ -109,7 +109,7 @@ if has("win32")
   set fileformat=unix
 endif
 
-set statusline=[%n]\ %<%.99f\ %h%w%m%r%{SL('CapsLockStatusline')}%y%{SL('fugitive#statusline')}%#ErrorMsg#%{SL('SyntasticStatuslineFlag')}%*%=%-14.(%l,%c%V%)\ %P
+set statusline=[%n]\ %<%.99t\ %h%w%m%r%{SL('CapsLockStatusline')}%y%{SL('fugitive#statusline')}%#ErrorMsg#%{SL('SyntasticStatuslineFlag')}%*%=%-14.(%l,%c%V%)\ %P
 
 if has("eval")
 function! SL(function)
@@ -120,3 +120,5 @@ function! SL(function)
   endif
 endfunction
 endif
+
+let g:tagbar_autoclose = 1
