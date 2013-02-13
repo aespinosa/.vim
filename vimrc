@@ -69,6 +69,7 @@ set list
 " Bundle: TWiki-Syntax
 " Bundle: tpope/vim-cucumber
 " Bundle: tpope/vim-markdown
+" Bundle: confluencewiki.vim
 
 " Editor formatting options
 set sts:2
