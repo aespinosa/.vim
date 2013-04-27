@@ -13,9 +13,6 @@
 [submodule "bundle/vim-git"]
 	path = bundle/vim-git
 	url = https://github.com/tpope/vim-git.git
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/Align"]
 	path = bundle/Align
 	url = https://github.com/vim-scripts/Align.git
@@ -31,24 +28,39 @@
 [submodule "bundle/screen"]
 	path = bundle/screen
 	url = https://github.com/ervandew/screen.git
-[submodule "bundle/tagbar"]
-	path = bundle/tagbar
-	url = https://github.com/majutsushi/tagbar.git
 [submodule "bundle/ack.vim"]
 	path = bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
-	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/Swift-vim"]
+	path = bundle/Swift-vim
+	url = https://github.com/aespinosa/Swift-vim.git
+[submodule "bundle/Vim-R-plugin"]
+	path = bundle/Vim-R-plugin
+	url = https://github.com/jcfaria/Vim-R-plugin.git
+[submodule "bundle/TWiki-Syntax"]
+	path = bundle/TWiki-Syntax
+	url = https://github.com/vim-scripts/TWiki-Syntax.git
+[submodule "bundle/confluencewiki.vim"]
+	path = bundle/confluencewiki.vim
+	url = https://github.com/vim-scripts/confluencewiki.vim.git
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = https://github.com/majutsushi/tagbar.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/tlib_vim"]
 	path = bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
@@ -58,15 +70,15 @@
 [submodule "bundle/vim-snipmate"]
 	path = bundle/vim-snipmate
 	url = https://github.com/garbas/vim-snipmate.git
-[submodule "bundle/snipmate-snippets"]
-	path = bundle/snipmate-snippets
-	url = https://github.com/honza/snipmate-snippets.git
-[submodule "bundle/Swift-vim"]
-	path = bundle/Swift-vim
-	url = https://github.com/aespinosa/Swift-vim.git
-[submodule "bundle/Vim-R-plugin"]
-	path = bundle/Vim-R-plugin
-	url = https://github.com/jcfaria/Vim-R-plugin.git
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/vim-json"]
+	path = bundle/vim-json
+	url = https://github.com/rogerz/vim-json.git
 [submodule "bundle/vim-ruby-minitest"]
 	path = bundle/vim-ruby-minitest
 	url = https://github.com/sunaku/vim-ruby-minitest.git
@@ -76,30 +88,18 @@
 [submodule "bundle/vim-rake"]
 	path = bundle/vim-rake
 	url = https://github.com/tpope/vim-rake.git
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
-[submodule "bundle/TWiki-Syntax"]
-	path = bundle/TWiki-Syntax
-	url = https://github.com/vim-scripts/TWiki-Syntax.git
+[submodule "bundle/vim-chef"]
+	path = bundle/vim-chef
+	url = https://github.com/t9md/vim-chef.git
 [submodule "bundle/vim-cucumber"]
 	path = bundle/vim-cucumber
 	url = https://github.com/tpope/vim-cucumber.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
-[submodule "bundle/vim-coffee-script"]
-	path = bundle/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = https://github.com/tpope/vim-rails.git
-[submodule "bundle/vim-json"]
-	path = bundle/vim-json
-	url = https://github.com/rogerz/vim-json.git
-[submodule "bundle/vim-chef"]
-	path = bundle/vim-chef
-	url = https://github.com/t9md/vim-chef.git
-[submodule "bundle/confluencewiki.vim"]
-	path = bundle/confluencewiki.vim
-	url = https://github.com/vim-scripts/confluencewiki.vim.git

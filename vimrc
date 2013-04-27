@@ -51,7 +51,7 @@ set list
 " Bundle: tomtom/tlib_vim
 " Bundle: MarcWeber/vim-addon-mw-utils
 " Bundle: garbas/vim-snipmate
-" Bundle: honza/snipmate-snippets
+" Bundle: honza/vim-snippets
 
 " Language-specific plugins
 " Bundle: aespinosa/Swift-vim
