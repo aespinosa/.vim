@@ -79,24 +79,12 @@
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = https://github.com/rogerz/vim-json.git
-[submodule "bundle/vim-ruby-minitest"]
-	path = bundle/vim-ruby-minitest
-	url = https://github.com/sunaku/vim-ruby-minitest.git
-[submodule "bundle/vim-bundler"]
-	path = bundle/vim-bundler
-	url = https://github.com/tpope/vim-bundler.git
-[submodule "bundle/vim-rake"]
-	path = bundle/vim-rake
-	url = https://github.com/tpope/vim-rake.git
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
-[submodule "bundle/vim-chef"]
-	path = bundle/vim-chef
-	url = https://github.com/t9md/vim-chef.git
 [submodule "bundle/vim-cucumber"]
 	path = bundle/vim-cucumber
 	url = https://github.com/tpope/vim-cucumber.git

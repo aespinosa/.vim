@@ -59,12 +59,8 @@ set list
 " Bundle: jcfaria/Vim-R-plugin
 " Bundle: rogerz/vim-json
 " Ruby
-" Bundle: sunaku/vim-ruby-minitest
-" Bundle: tpope/vim-bundler
-" Bundle: tpope/vim-rake
 " Bundle: tpope/vim-rails
 " Bundle: vim-ruby/vim-ruby
-" Bundle: t9md/vim-chef
 " Markup
 " Bundle: TWiki-Syntax
 " Bundle: tpope/vim-cucumber
