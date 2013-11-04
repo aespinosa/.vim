@@ -12,7 +12,7 @@ call pathogen#infect()
 " Visual settings
 " Bundle: altercation/vim-colors-solarized
 if has("gui_running")
-  colorscheme solarized
+  colorscheme desert
   set background=dark
   set guioptions-=m
   set guioptions-=r
@@ -24,7 +24,7 @@ if has("gui_running")
     set guifont=Consolas\ 9
   endif
 else
-  colorscheme solarized
+  colorscheme desert256
   set mouse=a
 endif
 set number
@@ -90,12 +90,12 @@ augroup markup
   au BufEnter snd.\d\+,.letter,.letter.\d\+,.followup,.article,.article.\d\+,pico.\d\+,mutt{ng,}-*-\w\+,mutt[[:alnum:]_-]\{6\},ae\d\+.txt,/tmp/SLRN[0-9A-Z.]\+,*.eml set bg=light
   au BufLeave snd.\d\+,.letter,.letter.\d\+,.followup,.article,.article.\d\+,pico.\d\+,mutt{ng,}-*-\w\+,mutt[[:alnum:]_-]\{6\},ae\d\+.txt,/tmp/SLRN[0-9A-Z.]\+,*.eml set bg=dark
   autocmd Filetype mail setlocal spell spelllang=en_us
-  autocmd BufEnter *.tex set bg=light
-  autocmd BufLeave *.tex set bg=dark
+  "autocmd BufEnter *.tex set bg=light
+  "autocmd BufLeave *.tex set bg=dark
   autocmd FileType tex setlocal spell spelllang=en_us
   autocmd FileType tex set iskeyword=@,48-57,_,-,:,192-255
-  autocmd BufEnter *.md set bg=light
-  autocmd BufLeave *.md set bg=dark
+  "autocmd BufEnter *.md set bg=light
+  "autocmd BufLeave *.md set bg=dark
   autocmd FileType markdown setlocal spell spelllang=en_us
 augroup END
 
