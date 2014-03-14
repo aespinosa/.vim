@@ -5,7 +5,7 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
 "call pathogen#helptags()
 
-" Git ingration
+" Git integration
 " Bundle: tpope/vim-fugitive
 " Bundle: tpope/vim-git
 
@@ -21,7 +21,7 @@ if has("gui_running")
     set encoding=utf-8
     set guifont=Consolas:h9
   else
-    set guifont=Consolas\ 9
+    "set guifont=Consolas\ 9
   endif
 else
   colorscheme desert256
@@ -58,6 +58,7 @@ set list
 " Bundle: kchmck/vim-coffee-script
 " Bundle: jcfaria/Vim-R-plugin
 " Bundle: rogerz/vim-json
+" Bundle: nosami/Omnisharp
 " Ruby
 " Bundle: tpope/vim-rails
 " Bundle: vim-ruby/vim-ruby
