@@ -10,7 +10,7 @@ call pathogen#infect()
 " Bundle: tpope/vim-git
 
 " Visual settings
-" Bundle: altercation/vim-colors-solarized
+" Bundle: desert256.vim
 if has("gui_running")
   colorscheme desert
   set background=dark
