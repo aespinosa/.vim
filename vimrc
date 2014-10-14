@@ -38,13 +38,10 @@ set list
 " Bundle: Align
 " Bundle: matchit.zip
 " Bundle: bufexplorer.zip
-" Bundle: acx0/Conque-Shell
 " Bundle: ervandew/screen
-" Bundle: majutsushi/tagbar 
 " Bundle: mileszs/ack.vim
 " Bundle: scrooloose/syntastic
 " Bundle: scrooloose/nerdcommenter
-" Bundle: tpope/vim-surround
 " Bundle: kien/ctrlp.vim
 
 " Snipmate and dependencies
@@ -55,16 +52,10 @@ set list
 
 " Language-specific plugins
 " Bundle: aespinosa/Swift-vim
-" Bundle: kchmck/vim-coffee-script
-" Bundle: jcfaria/Vim-R-plugin
-" Bundle: rogerz/vim-json
 " Bundle: nosami/Omnisharp
 " Ruby
-" Bundle: tpope/vim-rails
 " Bundle: vim-ruby/vim-ruby
 " Markup
-" Bundle: TWiki-Syntax
-" Bundle: tpope/vim-cucumber
 " Bundle: tpope/vim-markdown
 " Bundle: confluencewiki.vim
 
