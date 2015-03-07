@@ -88,7 +88,9 @@ augroup markup
   autocmd FileType tex set iskeyword=@,48-57,_,-,:,192-255
   "autocmd BufEnter *.md set bg=light
   "autocmd BufLeave *.md set bg=dark
-  autocmd FileType markdown setlocal spell spelllang=en_us
+  if has("gui_running")
+    autocmd FileType markdown setlocal spell spelllang=en_us
+  endif
 augroup END
 
 augroup programs
