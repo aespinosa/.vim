@@ -38,7 +38,6 @@ set list
 " Bundle: Align
 " Bundle: matchit.zip
 " Bundle: bufexplorer.zip
-" Bundle: ervandew/screen
 " Bundle: mileszs/ack.vim
 " Bundle: scrooloose/syntastic
 " Bundle: scrooloose/nerdcommenter
