@@ -24,7 +24,7 @@ if has("gui_running")
     "set guifont=Consolas\ 9
   endif
 else
-  colorscheme desert256
+  colorscheme base16-ocean
   set mouse=a
 endif
 set number
@@ -52,11 +52,10 @@ set list
 " Language-specific plugins
 " Bundle: aespinosa/Swift-vim
 " Bundle: nosami/Omnisharp
-" Ruby
+" Bundle: hashivim/vim-terraform
 " Bundle: vim-ruby/vim-ruby
 " Markup
 " Bundle: tpope/vim-markdown
-" Bundle: confluencewiki.vim
 
 " Editor formatting options
 set sts:2
@@ -95,6 +94,7 @@ augroup END
 augroup programs
   autocmd FileType python setlocal ts:4 sts:4 sw:4
   autocmd FileType gitcommit setlocal ts:8 tw:72
+  au BufNewFile,BufRead Jenkinsfile setf groovy
 augroup END
 
 if has("win32")
