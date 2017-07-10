@@ -10,9 +10,8 @@ call pathogen#infect()
 " Bundle: tpope/vim-git
 
 " Visual settings
-" Bundle: desert256.vim
 if has("gui_running")
-  colorscheme desert
+  colorscheme base16-atelier-lakeside-light
   set background=dark
   set guioptions-=m
   set guioptions-=r
@@ -24,7 +23,8 @@ if has("gui_running")
     "set guifont=Consolas\ 9
   endif
 else
-  colorscheme base16-ocean
+  let base16colorspace=256
+  colorscheme base16-atelier-lakeside-light
   set mouse=a
 endif
 set number
