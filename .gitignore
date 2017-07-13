@@ -3,4 +3,5 @@ doc/bundles.txt
 doc/bundle-log.txt
 doc/tags
 .netrwhist
-bundle
+bundle/*/
+!bundle/clone.rb
