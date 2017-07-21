@@ -10,6 +10,7 @@ call pathogen#infect()
 " Bundle: tpope/vim-git
 
 " Visual settings
+" Bundle: chriskempson/base16-vim
 if has("gui_running")
   colorscheme base16-atelier-lakeside-light
   set background=dark
