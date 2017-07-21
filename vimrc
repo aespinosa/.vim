@@ -117,3 +117,8 @@ endif
 let g:tagbar_autoclose = 1
 
 set colorcolumn=80
+
+autocmd BufNewFile,BufRead */cookbook-*/\(attributes\|definitions\|libraries\|providers\|recipes\|resources\)/*.rb set filetype=ruby.chef
+autocmd BufNewFile,BufRead */cookbook-*/templates/*/*.erb set filetype=eruby.chef
+autocmd BufNewFile,BufRead */cookbook-*/templates/*.erb set filetype=eruby.chef
+autocmd BufNewFile,BufRead */cookbook-*/metadata.rb set filetype=ruby.chef
