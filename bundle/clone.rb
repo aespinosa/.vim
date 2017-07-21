@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby -ns
 
-bundle = $F[2]
+bundle = $_.match(/^" Bundle: (.*)$/)
+next unless bundle
+bundle = bundle[1]
 url, basename = if bundle =~ /^[A-Za-z0-9-]+\/[A-Za-z0-9._-]+$/
     ["https://github.com/#{bundle}/archive/master.tar.gz", File.basename(bundle)]
   elsif bundle =~ /^[A-Za-z0-9._-]+$/ 
