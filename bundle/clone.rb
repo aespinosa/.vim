@@ -10,4 +10,4 @@ url, basename = if bundle =~ /^[A-Za-z0-9-]+\/[A-Za-z0-9._-]+$/
   end
 
 system "mkdir -p #{basename}"
-system "curl -L #{url} | gtar -xzv --strip 1 -C #{basename}"
+system "curl -sL #{url} | tar -xvz --strip 1 -C #{basename}"
