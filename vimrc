@@ -118,6 +118,7 @@ let g:tagbar_autoclose = 1
 
 set colorcolumn=80
 
+autocmd Filetype ruby.chef let g:syntastic_ruby_rubocop_exec = 'cookstyle'
 autocmd BufNewFile,BufRead */cookbook-*/\(attributes\|definitions\|libraries\|providers\|recipes\|resources\)/*.rb set filetype=ruby.chef
 autocmd BufNewFile,BufRead */cookbook-*/templates/*/*.erb set filetype=eruby.chef
 autocmd BufNewFile,BufRead */cookbook-*/templates/*.erb set filetype=eruby.chef
