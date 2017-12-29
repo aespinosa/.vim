@@ -1,0 +1,28 @@
+snippet wf
+	<workflow-app xmlns="uri:oozie:workflow:0.4" name="${1}">
+		${0}
+	</workflow-app>
+snippet start
+	<start to="${1}"/>
+snippet ok
+	<ok to="${1:next}"/>
+snippet err
+	<error to="${1:fail}"/>
+snippet end
+	<end name="${1:end}"/>
+snippet kill
+	<kill name="${1:die}">
+		<message>${2:Script failed, error message[${wf:errorMessage(wf:lastErrorNode())\}]}</message>
+	</kill> 
+snippet action
+	<action name="${1}">
+		${0}
+		<ok to="${2:next}"/>
+		<error to="${3:fail}"/>
+	</action>
+snippet shell
+	<shell xmlns="uri:oozie:shell-action:0.2">
+		<job-tracker>${1:ResourceManager}</job-tracker>
+		<name-node>${2:NameNode}</name-node>
+		<exec>${0}</exec>
+	</shell>
