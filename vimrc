@@ -55,6 +55,7 @@ set list
 " Bundle: nosami/Omnisharp
 " Bundle: hashivim/vim-terraform
 " Bundle: vim-ruby/vim-ruby
+" Bundle: LnL7/vim-nix
 " Markup
 " Bundle: tpope/vim-markdown
 
@@ -93,9 +94,11 @@ augroup markup
 augroup END
 
 augroup programs
+  autocmd FileType groovy setlocal ts=4  sts=4 sw=4
   autocmd FileType python setlocal ts:4 sts:4 sw:4
   autocmd FileType gitcommit setlocal ts:8 tw:72
   au BufNewFile,BufRead Jenkinsfile setf groovy
+  autocmd FileType groovy setlocal ts=4  sts=4 sw=4
 augroup END
 
 if has("win32")
@@ -119,6 +122,7 @@ let g:tagbar_autoclose = 1
 set colorcolumn=80
 
 autocmd Filetype ruby.chef let g:syntastic_ruby_rubocop_exec = 'cookstyle'
+autocmd Filetype ruby.chef let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 autocmd BufNewFile,BufRead */cookbook-*/\(attributes\|definitions\|libraries\|providers\|recipes\|resources\)/*.rb set filetype=ruby.chef
 autocmd BufNewFile,BufRead */cookbook-*/templates/*/*.erb set filetype=eruby.chef
 autocmd BufNewFile,BufRead */cookbook-*/templates/*.erb set filetype=eruby.chef
