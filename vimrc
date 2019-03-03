@@ -1,10 +1,5 @@
 set nocompatible
 
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-" Bundle: tpope/vim-pathogen
-call pathogen#infect()
-"call pathogen#helptags()
-
 " Git integration
 " Bundle: tpope/vim-fugitive
 " Bundle: tpope/vim-git
