@@ -122,3 +122,7 @@ autocmd BufNewFile,BufRead */cookbook-*/\(attributes\|definitions\|libraries\|pr
 autocmd BufNewFile,BufRead */cookbook-*/templates/*/*.erb set filetype=eruby.chef
 autocmd BufNewFile,BufRead */cookbook-*/templates/*.erb set filetype=eruby.chef
 autocmd BufNewFile,BufRead */cookbook-*/metadata.rb set filetype=ruby.chef
+
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif
